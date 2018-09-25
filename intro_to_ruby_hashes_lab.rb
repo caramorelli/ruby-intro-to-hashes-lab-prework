@@ -3,7 +3,8 @@ def new_hash
 end
 
 def actor
-
+  actor_hash = new_hash
+  actor_hash[:name] = ""
 end
 
 def monopoly
